@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title ABCD.com
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/images/logo.png")
+                | ABCD
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Info]
+            li #[a(href="/contact") Contact Us]
+    section#intro
+        div.heading Welcome to ABCD
+        div  Where Any Body Can Dance !!
+    section#mission
+        h2 Our Mission 
+        div.card#card1 
+            h3 Dance Perfection 
+            div.cardbox
+                div.card-img
+                    img(src="/static/images/1.png", alt="")  
+                div.cardcontent
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, illum tempore sit totam 
+        div.card 
+            h3 Expert Mentoring 
+            div.cardbox
+                div.card-img
+                    img(src="/static/images/2.png", alt="")  
+                div.cardcontent
+                    p facilis error asperiores rem exercitationem magni voluptatibus esse quas explicabo 
+        div.card 
+            h3 On-Stage Performances   
+            div.cardbox
+                div.card-img
+                    img(src="/static/images/3.png", alt="")  
+                div.cardcontent
+                    p eos mollitia ea laborum consequatur nesciunt facilis error asperiores rem exercitationem 
+    section#sponsors
+        h2 Our Sponsors
+        div#spons
+            img(src="/static/images/spon1.png", alt=" Booking partner",class="spimage")
+            img(src="/static/images/spon2.png", alt=" Booking partner",class="spimage")
+            img(src="/static/images/spon3.png", alt=" Booking partner",class="spimage", id="paytm")
+            img(src="/static/images/spon4.png", alt=" Booking partner",class="spimage")
+
+    footer#footer
+        | Copyright © 2020  | ABCD.com |  All rights reserved   
+    script
+      include ../static/index.js
