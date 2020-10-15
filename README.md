@@ -1,2 +1,2 @@
 # DanceWebsite
-this a dummy site
+# this a dummy site
